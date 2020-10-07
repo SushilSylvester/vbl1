@@ -1654,7 +1654,7 @@ em {
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
-    height: 440px;
+    height: 600px;
 }
 
 .about-right {
@@ -1903,7 +1903,7 @@ main {
 }
 
 .footer-box {
-    height: 460px;
+    height: 520px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.30);
 }
 

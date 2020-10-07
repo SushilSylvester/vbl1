@@ -992,7 +992,7 @@ body.animate {
 
 .navbar-brand {
     max-width: 100%;
-    background-image: url(../../images/logo.png);
+    background-image: url(images/logo.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

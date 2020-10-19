@@ -24,6 +24,10 @@ CSS INDEX
 .spacing{
     margin: 50px;
 }
+
+.spacing1{
+    margin: 20px;
+}
 *,
 *::after,
 *::before {
@@ -1304,7 +1308,7 @@ em {
 
 .header .swiper-carousel .swiper-slide .inner {
     opacity: 0;
-    padding: 0 5vw;
+    padding: 0 9vw;
     position: relative;
     z-index: 2;
     -webkit-transform: translateY(50px);
@@ -1658,7 +1662,7 @@ em {
 }
 
 .about-right {
-    padding: 50px 0px;
+    padding: 50px 0px 0px 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

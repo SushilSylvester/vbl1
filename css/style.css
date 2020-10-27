@@ -21,6 +21,17 @@ CSS INDEX
 -----------------------------------------------------------------------------------*/
 
 /*=============== 01. Theme default CSS =====================*/
+
+@font-facee{
+    font-family: gotham;
+    src:"fonts/Gotham-Bold.otf";
+}
+.description h1 img{
+    height: 50px;
+    vertical-align: center;
+    margin:10px;
+}
+
 .spacing{
     margin: 50px;
 }
@@ -45,7 +56,7 @@ CSS INDEX
 
 body {
     background-color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
     position: relative;
     overflow-x: hidden;
     margin: 0;
@@ -105,7 +116,7 @@ p:last-child {
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 15px;
     line-height: 25px;
     margin: 0;
@@ -209,7 +220,7 @@ a:focus {
     padding-bottom: 30px;
     margin: 0px;
     position: relative;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
 }
 
 .sub-title {
@@ -220,7 +231,7 @@ a:focus {
     position: relative;
     text-transform: uppercase;
     padding-left: 30px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
 }
 
 .sub-title:before {
@@ -419,7 +430,7 @@ body.animate {
     left: 0;
     padding: 17px 0 0;
     letter-spacing: 1.5px;
-    font-family: Raleway;
+    font-family: Lora;
     font-weight: 600;
 }
 
@@ -856,7 +867,7 @@ body.animate {
     line-height: 25px !important;
     font-weight: 300;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 .burger-menu-list2 li {
@@ -1042,7 +1053,7 @@ body.animate {
     color: #171a22;
     font-size: 15px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 /*================ 05. SubMenu CSS ===============*/
@@ -1185,7 +1196,7 @@ body.animate {
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 80px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
 }
 
 .cd-words-wrapper b i {
@@ -1709,7 +1720,7 @@ em {
 .about-image-list li .a-no {
     font-size: 48px;
     color: #a87b52;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
 }
 
 .about-image-list p {
@@ -1784,7 +1795,7 @@ em {
 .service_title {
     color: #fff;
     font-size: 15px;
-    font-family: Raleway;
+    font-family: Lora;
     font-weight: 600;
     letter-spacing: 1px;
     -webkit-transform: translateY(0px);
@@ -1856,7 +1867,7 @@ em {
     margin-bottom: 10px;
     font-weight: 500;
     letter-spacing: 1px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
 }
 
 .pro_place {
@@ -1865,7 +1876,7 @@ em {
     margin-bottom: 10px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family: Raleway;
+    font-family: Lora;
 }
 
 .partner-list img {
@@ -1919,7 +1930,7 @@ main {
     margin: 0px;
     position: relative;
     letter-spacing: 1px;
-    font-family: Prata;
+    font-family: Varela;
 }
 
 .foot-box-text {
@@ -1941,11 +1952,11 @@ main {
 
 .foot-top-right ul li {
     margin-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 .foot-top-right ul li a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
     color: #cacaca;
     font-size: 15px;
     font-weight: 500;
@@ -1995,7 +2006,7 @@ main {
     color: #cacaca;
     text-align: left;
     line-height: 30px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', sans-serif;
     margin-top: 0px;
 }
 
@@ -2216,7 +2227,7 @@ main {
     font-size: 30px;
     color: #303339;
     line-height: 70px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
     margin: 40px 0;
 }
 
@@ -2379,7 +2390,7 @@ main {
 
 .testimonial-description h3 {
     font-size: 30px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
     color: #fff;
     line-height: 70px;
     letter-spacing: 1px;
@@ -2439,7 +2450,7 @@ main {
     font-size: 18px;
     color: #171a22;
     line-height: 40px;
-    font-family: 'Prata', serif;
+    font-family: 'Varela', serif;
     overflow: hidden;
     -webkit-transform: translateY(-10%);
     -ms-transform: translateY(-10%);
@@ -2481,7 +2492,7 @@ main {
 /*=============== 14. Project Detail Page CSS =====================*/
 
 .project-inner-detail {
-    font-family: Prata;
+    font-family: Varela;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -2632,7 +2643,7 @@ main {
 }
 
 .heading--h4 {
-    font-family: Raleway;
+    font-family: Lora;
     font-size: 15px;
     font-weight: 600;
     font-style: normal;
@@ -2644,7 +2655,7 @@ main {
 }
 
 .paragraph--narrow {
-    font-family: Raleway;
+    font-family: Lora;
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
@@ -2845,7 +2856,7 @@ main {
 }
 
 .service-detail h3 {
-    font-family: Prata;
+    font-family: Varela;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -2857,7 +2868,7 @@ main {
 }
 
 .service-detail p {
-    font-family: Raleway;
+    font-family: Lora;
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
@@ -2962,7 +2973,7 @@ main {
 }
 
 .contact-head h3 {
-    font-family: Prata;
+    font-family: Varela;
     font-size: 24px;
     line-height: 2;
     letter-spacing: 0.48px;
@@ -2984,7 +2995,7 @@ main {
 }
 
 .contact-list li p {
-    font-family: Raleway;
+    font-family: Lora;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1.5px;

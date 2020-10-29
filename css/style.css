@@ -21,7 +21,9 @@ CSS INDEX
 -----------------------------------------------------------------------------------*/
 
 /*=============== 01. Theme default CSS =====================*/
-
+.footer-info{
+    float: right !important;
+}
 @font-facee{
     font-family: gotham;
     src:"fonts/Gotham-Bold.otf";
@@ -1896,7 +1898,7 @@ main {
 .footer-box-main {
     position: fixed;
     z-index: -2;
-    height: 775px;
+    height: 500px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -1919,14 +1921,14 @@ main {
 }
 
 .footer-box {
-    height: 520px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    height: 200px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.30);
 }
 
 .section-title .foot-title {
     font-size: 51px;
     color: #fffefe;
-    padding-bottom: 50px;
+
     margin: 0px;
     position: relative;
     letter-spacing: 1px;
@@ -1947,7 +1949,7 @@ main {
 }
 
 .foot-top {
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 
 .foot-top-right ul li {

@@ -24,11 +24,11 @@ CSS INDEX
 .footer-info{
     float: right !important;
 }
-@font-facee{
+@font-face{
     font-family: gotham;
-    src:"fonts/Gotham-Bold.otf";
+    src: url(../fonts/Gotham-Rounded-Book.woff);
 }
-@font-facee{
+@font-face{
     font-family: gothamrounded;
     src:"fonts/GothamRoundedLight_21020.ttf";
 }
@@ -228,7 +228,8 @@ a:focus {
     padding-bottom: 30px;
     margin: 0px;
     position: relative;
-    font-family: 'Varela', serif;
+    /*font-family: 'Varela', serif;*/
+    font-family: 'gotham';
 }
 
 .sub-title {

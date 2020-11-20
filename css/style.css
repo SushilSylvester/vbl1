@@ -28,6 +28,10 @@ CSS INDEX
     font-family: gotham;
     src:"fonts/Gotham-Bold.otf";
 }
+@font-facee{
+    font-family: gothamrounded;
+    src:"fonts/GothamRoundedLight_21020.ttf";
+}
 .description h1 img{
     height: 50px;
     vertical-align: center;
@@ -95,6 +99,7 @@ h1 {
 }
 
 h2 {
+    font-family: gothamrounded;
     font-size: 30px;
 }
 

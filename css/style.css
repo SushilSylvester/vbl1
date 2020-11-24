@@ -21,6 +21,10 @@ CSS INDEX
 -----------------------------------------------------------------------------------*/
 
 /*=============== 01. Theme default CSS =====================*/
+about-right col-lg-6 col-md-12 col-sm-12{
+    margin-top: 20px;
+}
+
 .footer-info{
     float: right !important;
 }
